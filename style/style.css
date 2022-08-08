@@ -1,4 +1,8 @@
-/* crete-round-regular - latin */
+* {
+  margin: 0;
+  padding: 0;
+}
+  /* crete-round-regular - latin */
 @font-face {
   font-family: 'Crete Round';
   font-style: normal;
