@@ -1,0 +1,41 @@
+/* crete-round-regular - latin */
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('fonts/crete-round-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/crete-round-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* body {
+  font-family: 'Crete Round';
+} */
+
+#test {
+  font-family: 'Crete Round';
+  /* font-variant: small-caps; */
+  font-size: 80;
+
+}
+
+
+mark {
+  animation: 0.4s highlight 0.1s 1 normal forwards;
+  background-color: none;
+  background: linear-gradient(90deg, #3cff4c 50%, rgba(255, 255, 255, 0) 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  animation-timing-function:ease-out;
+
+}
+
+@keyframes highlight {
+  to {
+    background-position: 0 0;
+  }
+}
+
+#mc-embedded-subscribe-form {
+  display: flex;
+}
