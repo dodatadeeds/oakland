@@ -92,14 +92,13 @@ header {
   font-size: 2vh;
   background-color: #3cff4c;
   border-radius: 0 6vw 6vw 0;
+  -webkit-border-radius: 0 6vw 6vw 0;
   border: 2px solid #3cff4c;
   padding: .75vw;
   font-family: 'Crete Round';
   font-weight: 500;
   cursor: pointer;
   color: #014c0e;
-  
-
 }
 
 
