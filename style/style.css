@@ -110,7 +110,7 @@ input[type="submit"] {
   height: 400px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   color: #ffffff;
 }
@@ -127,6 +127,7 @@ input[type="submit"] {
   font-size: 2.25vh;
   margin: 1.5vh 10vw 4.5vh 10vw;
   font-family: 'Crete Round';
+  max-width: 960px;
 }
 
 #diagram-section {
@@ -136,6 +137,23 @@ input[type="submit"] {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#diagram-section h1 {
+  font-family: 'Crete Round';
+  font-size: 5vh;
+  font-weight: 400;
+  /* padding-bottom: 5vh; */
+  max-width: 960px;
+}
+
+#diagram-section p {
+  font-size: 2vh;
+  margin: 15px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  max-width: 960px;
+
 }
 
 
