@@ -197,8 +197,7 @@ input[type="submit"] {
 }
 
 #query-image {
-  /* width: 500px; */
-  max-width: 80vw;
+  max-width: 40vh;
   height: auto;
 }
 
